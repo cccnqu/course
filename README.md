@@ -1,3 +1,4 @@
 ## 陳鍾誠的課程
 
-課程的共用程式碼請看 https://github.com/cccnqu/ccc/  ，課程資訊請看 [wiki](../../wiki) 網頁！
+* 課程的共用程式碼請看 https://github.com/cccnqu/ccc/
+* 課程資訊請看 https://github.com/cccnqu/ccc/wiki 

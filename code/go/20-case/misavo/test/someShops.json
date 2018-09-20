@@ -1,0 +1,47 @@
+[
+  { "User": "teaboss", 
+    "Name": "茶舖子", "tel": "082-333333",
+    "Country": "台灣",
+    "Area": "金門縣金寧鄉",
+    "Address": "安美村湖南 33 號",
+    "Items": [{"Name":"紅茶", "Price":20}, {"Name":"綠茶", "Price": 20}, {"Name":"珍珠奶茶", "Price":35} ],
+    "Addons":[{"Name":"去冰", "Price": 0}, {"Name":"半糖", "Price": 0}, {"Name":"熱", "Price": 0}, {"Name":"加鮮奶", "Price": 10 }],
+    "At": {"lat": 24.45, "lng": 118.32}
+  },
+  { "User": "farmer", 
+    "Name": "農莊七號", "tel": "082-333234",
+    "Country": "台灣",
+    "Area": "金門縣金寧鄉",
+    "Address": "安美村湖南 77 號",
+    "Items": [{"Name":"馬鈴薯1斤", "Price": 30}, {"Name":"火龍果1斤", "Price": 60 }],
+    "Addons": [],
+    "At": {"lat": 24.44, "lng": 118.33}
+  },
+  { "User": "snoopy", 
+    "Name": "狗狗的家", "tel": "082-323234",
+    "Country": "台灣",
+    "Area": "金門縣金寧鄉",
+    "Address": "安美村湖南 66 號",
+    "Items": [{"Name:": "狗狗寄養(每日每隻)", "Price": 300 }],
+    "Addons": [{"Name": "不含夜間", "Price":0}, {"Name":"含夜間", "Price": 150 }],
+    "At": {"lat": 24.42, "lng": 118.32}
+  },
+  { "User": "garfield", 
+    "Name": "寵物之家", "tel": "082-313254",
+    "Country": "台灣",
+    "Area": "金門縣金寧鄉",
+    "Address": "安美村湖南 88 號",
+    "Items": [{"Name": "狗貓寄養(每日每隻)", "Price": 500 }],
+    "Addons": [{"Name": "不含夜間", "Price":0}, {"Name":"含夜間", "Price": 200 }],
+    "At": {"lat": 24.43, "lng": 118.34}
+  },
+  { "User": "teagirl", 
+    "Name": "採茶女", "tel": "02-22143312",
+    "Country": "台灣",
+    "Area": "台北市萬華區",
+    "Address": "康定路五號",
+    "Items": [{"Name": "烏龍茶(每台斤)", "Price": 2000}, {"Name":"香片(每台斤)", "Price": 1500 }],
+    "Addons": [],
+    "At": {"lat": 25.02, "lng": 121.47}
+  }
+]

@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+#main { padding:30px; }
+.post { margin:10px; padding:10px; height:30vh; width: 90%; 
+  border: 1px dashed #999999;
+  border-radius: 25px;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div class="post">xxx</div>
+<div class="post">xxx</div>
+<div class="post">xxx</div>
+<div class="post">xxx</div>
+
+</div>
+<script src="infinite-scroll.js"></script>
+<script>
+var mainNode = document.getElementById('main')
+var size = 0
+var options = {
+  distance: 5,
+  callback: function(done) {
+    size = size + 1
+    node = document.createElement("div")
+    node.className = "post"
+    node.innerHTML = 'i = ' + size
+    mainNode.appendChild(node)
+    // 1. fetch data from the server
+    // 2. insert it into the document
+    // 3. call done when we are done
+    done();
+  }
+}
+    
+// setup infinite scroll
+infiniteScroll(options)
+</script>
+</body>
+</html>
+

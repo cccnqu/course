@@ -1,0 +1,22 @@
+{
+  "name": "KoaStaticServer",
+  "version": "0.1.0",
+  "description": "KoaStaticServer",
+  "main": "staticServer",
+  "dependencies": {},
+  "devDependencies": {
+    "koa": "^2.4.1",
+    "koa-logger": "^3.1.0",
+    "koa-static": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {},
+  "keywords": [],
+  "author": {
+    "name": "Chung-Chen Chen",
+    "email": "ccckmit@gmail.com"
+  },
+  "license": "MIT"
+}
